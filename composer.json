@@ -1,0 +1,28 @@
+{
+    "name": "felipeedev/laravel-sortable",
+    "description": "Sorting utilities for Laravel Eloquent's models and queries.",
+    "authors": [
+        {
+            "name": "Filip Koblański",
+            "email": "filip.koblanski@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "classmap": [
+            "tests"
+        ],
+        "psr-4": {
+            "FelipeeDev\\LaravelSortable\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
